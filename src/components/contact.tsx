@@ -12,7 +12,7 @@ const contactInfo = [
   {
     icon: MapPin,
     title: 'Head Office',
-    details: ['Addis Ababa, Ethiopia', 'Bole Road, Atlas Building'],
+    details: ['Addis Ababa, Ethiopia', 'Bole Rwanda Embassy Road'],
   },
   {
     icon: Phone,
