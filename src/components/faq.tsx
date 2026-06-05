@@ -34,7 +34,7 @@ const faqs = [
   {
     question: 'How do I contact customer service?',
     answer:
-      'You can reach our team via phone at +251 911 516478, email at gize@gizeplc.com, or through the contact form on this website. We also provide a dedicated account manager for contracted clients.',
+      'You can reach our team via phone at +251 912 345 678, email at gize@gizeplc.com, or through the contact form on this website. We also provide a dedicated account manager for contracted clients.',
   },
 ];
 
