@@ -3,10 +3,11 @@
 import { motion } from 'framer-motion';
 import { useRef } from 'react';
 
-const connectItems = [
-  { label: 'Logistics', description: 'Delivering world-class logistics and infrastructure solutions to support large-scale projects' },
-  { label: 'Innovation', description: 'Driving digital innovation in financial and healthcare sectors to enhance service delivery' },
-  { label: 'Sustainability', description: 'Promoting sustainable development through renewable energy and environmentally friendly solutions' },
+const missionItems = [
+  { label: 'Logistics & Infrastructure', description: 'Delivering world-class logistics and infrastructure solutions to support large-scale projects' },
+  { label: 'Strategic Advisory', description: 'Empowering businesses through strategic advisory and supply chain optimization' },
+  { label: 'Digital Innovation', description: 'Driving digital innovation in financial and healthcare sectors to enhance service delivery' },
+  { label: 'Sustainable Development', description: 'Promoting sustainable development by engaging in renewable energy and environmentally friendly business solutions' },
 ];
 
 function WireframeGlobe() {
@@ -102,35 +103,42 @@ export default function WeConnect() {
               <span className="text-gize-orange">Connect</span>
             </h2>
 
-            <p className="text-white/70 text-lg max-w-lg mb-10 leading-relaxed">
-              To be a global leader in logistics, energy, and digital solutions, driving 
-              sustainable growth and economic transformation in Ethiopia and beyond.
-            </p>
+            {/* Vision */}
+            <div className="mb-8">
+              <p className="text-gize-orange/80 text-xs font-semibold uppercase tracking-[0.2em] mb-2">Our Vision</p>
+              <p className="text-white/70 text-lg max-w-lg leading-relaxed">
+                To be a global leader in logistics, energy, and digital solutions, driving 
+                sustainable growth and economic transformation in Ethiopia and beyond.
+              </p>
+            </div>
 
-            {/* Connect Items */}
-            <div className="space-y-6">
-              {connectItems.map((item, index) => (
-                <motion.div
-                  key={item.label}
-                  initial={{ opacity: 0, x: -20 }}
-                  whileInView={{ opacity: 1, x: 0 }}
-                  viewport={{ once: true }}
-                  transition={{ duration: 0.5, delay: 0.2 + index * 0.15 }}
-                  className="flex items-start gap-4 group"
-                >
-                  <div className="flex-shrink-0 w-12 h-12 bg-gize-red/20 border border-gize-red/30 rounded-lg flex items-center justify-center group-hover:bg-gize-red group-hover:border-gize-red transition-colors duration-300">
-                    <span className="text-gize-orange group-hover:text-white font-bold text-sm transition-colors duration-300">
-                      {String(index + 1).padStart(2, '0')}
-                    </span>
-                  </div>
-                  <div>
-                    <h3 className="text-white font-bold text-lg uppercase tracking-wide">
-                      {item.label}
-                    </h3>
-                    <p className="text-white/50 text-sm mt-1">{item.description}</p>
-                  </div>
-                </motion.div>
-              ))}
+            {/* Mission */}
+            <div>
+              <p className="text-gize-orange/80 text-xs font-semibold uppercase tracking-[0.2em] mb-4">Our Mission</p>
+              <div className="space-y-5">
+                {missionItems.map((item, index) => (
+                  <motion.div
+                    key={item.label}
+                    initial={{ opacity: 0, x: -20 }}
+                    whileInView={{ opacity: 1, x: 0 }}
+                    viewport={{ once: true }}
+                    transition={{ duration: 0.5, delay: 0.2 + index * 0.12 }}
+                    className="flex items-start gap-4 group"
+                  >
+                    <div className="flex-shrink-0 w-10 h-10 bg-gize-red/20 border border-gize-red/30 rounded-lg flex items-center justify-center group-hover:bg-gize-red group-hover:border-gize-red transition-colors duration-300">
+                      <span className="text-gize-orange group-hover:text-white font-bold text-xs transition-colors duration-300">
+                        {String(index + 1).padStart(2, '0')}
+                      </span>
+                    </div>
+                    <div>
+                      <h3 className="text-white font-bold text-base uppercase tracking-wide">
+                        {item.label}
+                      </h3>
+                      <p className="text-white/50 text-sm mt-0.5">{item.description}</p>
+                    </div>
+                  </motion.div>
+                ))}
+              </div>
             </div>
           </motion.div>
 
