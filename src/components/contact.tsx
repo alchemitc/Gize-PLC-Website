@@ -82,8 +82,8 @@ export default function Contact() {
             Contact Us
           </h2>
           <p className="text-gray-500 text-lg max-w-2xl mx-auto mt-4">
-            Ready to streamline your logistics? Get in touch with our team for a 
-            free consultation and custom quote.
+            Ready to explore how GIZE PLC can support your business? Get in touch 
+            with our team for a free consultation across any of our six divisions.
           </p>
         </motion.div>
 
@@ -236,7 +236,7 @@ export default function Contact() {
                   name="message"
                   value={formData.message}
                   onChange={handleChange}
-                  placeholder="Tell us about your shipping needs..."
+                  placeholder="Tell us about your project needs..."
                   required
                   rows={5}
                   className="bg-white border-gray-200 focus:border-gize-red rounded-lg text-sm resize-none"

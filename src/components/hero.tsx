@@ -13,21 +13,21 @@ const slides = [
     alt: 'Gize PLC shipping port',
     tag: 'Private Limited Company',
     headline: <>Global Logistics <span className="text-gize-orange">Solutions</span></>,
-    description: 'End-to-end shipping, warehousing, and supply chain management designed for businesses that demand reliability and efficiency.',
+    description: 'End-to-end shipping, logistics, and supply chain management designed for businesses that demand reliability, efficiency, and strategic expertise.',
   },
   {
     image: '/images/containers-aerial.jpg',
     alt: 'Container terminal operations',
-    tag: 'Warehousing & Distribution',
-    headline: <>Smart <span className="text-gize-orange">Warehousing</span></>,
-    description: 'State-of-the-art facilities with climate control, real-time inventory management, and strategic placement near major transport hubs.',
+    tag: 'Energy & Infrastructure',
+    headline: <>Renewable <span className="text-gize-orange">Energy</span></>,
+    description: 'Leading solar PV, wind, and small hydro project development through PPP models, driving Ethiopia\'s sustainable energy transformation.',
   },
   {
     image: '/images/ocean-shipping.jpg',
     alt: 'Ocean freight vessel',
-    tag: 'Ocean & Land Freight',
-    headline: <>Cross-Border <span className="text-gize-orange">Excellence</span></>,
-    description: 'From ocean freight to last-mile delivery, we connect your business to markets across the globe with precision and care.',
+    tag: 'Digital Innovation',
+    headline: <>Digital <span className="text-gize-orange">Banking</span></>,
+    description: 'Pioneering payment switch systems and financial technology solutions for leading Ethiopian banks and international financial institutions.',
   },
 ];
 
@@ -185,8 +185,8 @@ export default function Hero() {
 
             <div className="flex gap-8 sm:gap-12 mt-14 pt-8 border-t border-white/20">
               <StatCounter target={25} suffix="+" label="Years Experience" />
-              <StatCounter target={50} suffix="+" label="Countries Served" />
-              <StatCounter target={10} suffix="K+" label="Shipments/Year" />
+              <StatCounter target={6} label="Business Divisions" />
+              <StatCounter target={100} suffix="+" label="Projects Delivered" />
             </div>
           </motion.div>
         </div>

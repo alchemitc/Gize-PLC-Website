@@ -54,8 +54,8 @@ export default function AboutPage() {
               </div>
               <div className="grid grid-cols-3 gap-6 mt-10 pt-8 border-t border-gray-200">
                 <div><div className="text-3xl font-bold text-gize-red">25+</div><div className="text-sm text-gray-500 mt-1">Years Experience</div></div>
-                <div><div className="text-3xl font-bold text-gize-orange">50+</div><div className="text-sm text-gray-500 mt-1">Countries Served</div></div>
-                <div><div className="text-3xl font-bold text-gize-navy">10K+</div><div className="text-sm text-gray-500 mt-1">Shipments/Year</div></div>
+                <div><div className="text-3xl font-bold text-gize-orange">6</div><div className="text-sm text-gray-500 mt-1">Business Divisions</div></div>
+                <div><div className="text-3xl font-bold text-gize-navy">100+</div><div className="text-sm text-gray-500 mt-1">Projects Delivered</div></div>
               </div>
             </motion.div>
             <motion.div initial={{ opacity: 0, x: 30 }} whileInView={{ opacity: 1, x: 0 }} viewport={{ once: true }} transition={{ duration: 0.6, delay: 0.2 }}>
