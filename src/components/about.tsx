@@ -96,13 +96,23 @@ export default function About() {
                 <p className="text-gize-orange font-medium text-sm uppercase tracking-wider mt-1 mb-4">
                   CEO & Founder, Gize PLC
                 </p>
-                <p className="text-white/60 text-sm leading-relaxed">
+                <p className="text-white/60 text-sm leading-relaxed mb-4">
                   One of Ethiopia&apos;s most influential entrepreneurs, Gizeshwork Tessema has 
                   led GIZE PLC to become a multinational business powerhouse. With a background 
                   in Business Management from Addis Ababa University and executive training 
                   from Harvard Business School, she is a recognized expert in logistics, supply 
                   chain management, and business strategy.
                 </p>
+                <div className="space-y-2 pt-2 border-t border-white/10">
+                  <p className="text-white/40 text-xs uppercase tracking-wider font-semibold">Key Credentials</p>
+                  <div className="flex flex-wrap gap-2">
+                    <span className="text-[10px] bg-white/10 text-white/70 px-2 py-1 rounded">Harvard Business School</span>
+                    <span className="text-[10px] bg-white/10 text-white/70 px-2 py-1 rounded">UN Global Compact</span>
+                    <span className="text-[10px] bg-white/10 text-white/70 px-2 py-1 rounded">World Bank Reporter</span>
+                    <span className="text-[10px] bg-white/10 text-white/70 px-2 py-1 rounded">Accenture CEO Panel</span>
+                    <span className="text-[10px] bg-white/10 text-white/70 px-2 py-1 rounded">GERD Board Member</span>
+                  </div>
+                </div>
               </div>
             </div>
           </motion.div>
