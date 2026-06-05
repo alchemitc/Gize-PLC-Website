@@ -4,9 +4,9 @@ import { motion } from 'framer-motion';
 import { useRef } from 'react';
 
 const connectItems = [
-  { label: 'People', description: 'Our dedicated team of logistics experts' },
-  { label: 'Resources', description: 'A global network of ports, warehouses & fleets' },
-  { label: 'Systems', description: 'Cutting-edge technology for real-time tracking' },
+  { label: 'Logistics', description: 'Delivering world-class logistics and infrastructure solutions to support large-scale projects' },
+  { label: 'Innovation', description: 'Driving digital innovation in financial and healthcare sectors to enhance service delivery' },
+  { label: 'Sustainability', description: 'Promoting sustainable development through renewable energy and environmentally friendly solutions' },
 ];
 
 function WireframeGlobe() {
@@ -93,7 +93,7 @@ export default function WeConnect() {
             <div className="flex items-center gap-3 mb-6">
               <div className="h-[2px] w-12 bg-gize-orange" />
               <span className="text-gize-orange font-semibold uppercase tracking-[0.2em] text-sm">
-                Our Mission
+                Vision & Mission
               </span>
             </div>
 
@@ -102,9 +102,9 @@ export default function WeConnect() {
               <span className="text-gize-orange">Connect</span>
             </h2>
 
-            <p className="text-white/70 text-lg max-w-md mb-10 leading-relaxed">
-              Bridging the gap between supply and demand with seamless logistics 
-              infrastructure across continents.
+            <p className="text-white/70 text-lg max-w-lg mb-10 leading-relaxed">
+              To be a global leader in logistics, energy, and digital solutions, driving 
+              sustainable growth and economic transformation in Ethiopia and beyond.
             </p>
 
             {/* Connect Items */}
