@@ -51,14 +51,14 @@ export default function FAQ() {
   };
 
   return (
-    <section id="faq" className="bg-gize-light py-20 lg:py-28">
+    <section id="faq" className="bg-gize-light py-12 lg:py-16">
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.6 }}
-          className="text-center mb-14"
+          className="text-center mb-8"
         >
           <span className="text-gize-red font-semibold uppercase tracking-[0.25em] text-sm">
             Support

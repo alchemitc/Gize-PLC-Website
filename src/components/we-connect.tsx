@@ -65,7 +65,7 @@ export default function WeConnect() {
   const sectionRef = useRef<HTMLElement>(null);
 
   return (
-    <section ref={sectionRef} className="relative bg-gize-navy py-24 lg:py-32 overflow-hidden">
+    <section ref={sectionRef} className="relative bg-gize-navy py-12 lg:py-16 overflow-hidden">
       {/* Background Pattern */}
       <div className="absolute inset-0 opacity-5">
         <svg className="w-full h-full" viewBox="0 0 1200 400">

@@ -89,7 +89,7 @@ export default function Services() {
       </div>
 
       {/* Service Cards */}
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 lg:py-28">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 lg:py-16">
         <div className="grid md:grid-cols-3 gap-8">
           {services.map((service, index) => (
             <motion.div

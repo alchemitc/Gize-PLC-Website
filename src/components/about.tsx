@@ -15,10 +15,10 @@ const highlights = [
 
 export default function About() {
   return (
-    <section id="about" className="bg-white py-20 lg:py-28 overflow-hidden">
+    <section id="about" className="bg-white py-12 lg:py-16 overflow-hidden">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Section Header */}
-        <div className="bg-gize-red rounded-2xl p-8 sm:p-12 lg:p-16 mb-16 lg:mb-20 relative overflow-hidden">
+        <div className="bg-gize-red rounded-2xl p-8 sm:p-12 lg:p-16 mb-10 lg:mb-12 relative overflow-hidden">
           {/* Decorative */}
           <div className="absolute -right-20 -top-20 w-64 h-64 bg-white/5 rounded-full" />
           <div className="absolute -left-10 -bottom-10 w-48 h-48 bg-white/5 rounded-full" />
