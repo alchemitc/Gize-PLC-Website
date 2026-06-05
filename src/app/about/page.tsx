@@ -7,21 +7,21 @@ import { Button } from '@/components/ui/button';
 import Link from 'next/link';
 import Footer from '@/components/footer';
 
-const highlights = ['End-to-end supply chain visibility', 'Dedicated account management', 'Customs brokerage & compliance', 'Temperature-controlled logistics', 'Multi-modal transport solutions', '24/7 operations & support'];
+const highlights = ['Shipping, logistics & supply chain management', 'Energy consulting & infrastructure development', 'Digital & investment banking solutions', 'Polymer distribution for manufacturing', 'Digital health & telemedicine services', 'Property management & real estate development'];
 
 const milestones = [
-  { year: '1998', title: 'Founded in Addis Ababa', description: 'Gize PLC was established with a vision to transform logistics in Ethiopia and across Africa.' },
-  { year: '2005', title: 'First International Route', description: 'Expanded operations to serve corridors between East Africa and the Middle East.' },
-  { year: '2012', title: 'Warehousing Expansion', description: 'Opened state-of-the-art climate-controlled warehouse facilities in three strategic locations.' },
-  { year: '2018', title: '50+ Countries Served', description: 'Reached a milestone of operating across 50 countries spanning four continents.' },
-  { year: '2023', title: 'Green Logistics Initiative', description: 'Launched sustainability program including electric vehicle fleet and carbon offset partnerships.' },
+  { year: '2001', title: 'GIZE PLC Founded', description: 'Gizeshwork Tessema founded GIZE PLC in Addis Ababa, establishing a shipping and logistics firm that would grow into a multinational business powerhouse.' },
+  { year: '2014', title: 'UN Global Recognition', description: 'Represented Ethiopia at the Women Empowerment Principles Annual Event at UN HQ and spoke at the 2nd Business and Investment Forum in Vienna before UN Secretary-General Ban Ki-Moon.' },
+  { year: '2016', title: 'Harvard Business School', description: 'Selected for the Achieving Breakthrough Excellency Executive Education Program at Harvard Business School, positioning Ethiopia as a business case study country.' },
+  { year: '2019', title: 'Energy & Digital Expansion', description: 'Secured MoU with IPDC for renewable energy projects. Selected as one of 100 CEOs globally by Accenture for the UN Business Action for the Decade report.' },
+  { year: '2024', title: 'Digital Health & Real Estate', description: 'Launched telemedicine services in 100+ underserved locations using Starlink and initiated development of 20+ parking facilities with EV charging stations.' },
 ];
 
 const values = [
-  { title: 'Reliability', description: 'Every shipment is backed by our commitment to on-time delivery and transparent communication.', icon: '🎯' },
-  { title: 'Innovation', description: 'We leverage cutting-edge technology to optimize routes, reduce costs, and improve visibility.', icon: '💡' },
-  { title: 'Partnership', description: 'We treat every client relationship as a long-term partnership built on trust and mutual growth.', icon: '🤝' },
-  { title: 'Excellence', description: 'From operations to customer service, we pursue excellence in every aspect of our business.', icon: '⭐' },
+  { title: 'Excellence', description: 'We pursue world-class standards across every division — from logistics to digital health — delivering solutions that exceed expectations.', icon: '\u2B50' },
+  { title: 'Sustainability', description: 'We promote renewable energy, environmentally friendly business solutions, and sustainable development practices across all operations.', icon: '\U0001F33F' },
+  { title: 'Ethics', description: 'Our business practices are guided by integrity and transparency, recognized globally through our UN Global Compact membership.', icon: '\u2705' },
+  { title: 'Innovation', description: 'From digital banking to telemedicine powered by Starlink, we leverage cutting-edge technology to transform industries and communities.', icon: '\U0001F4A1' },
 ];
 
 export default function AboutPage() {
@@ -35,7 +35,7 @@ export default function AboutPage() {
           <motion.div initial={{ opacity: 0, y: 30 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.7 }} className="text-center">
             <div className="flex items-center justify-center gap-3 mb-6"><div className="h-[2px] w-12 bg-gize-orange" /><span className="text-gize-orange font-semibold uppercase tracking-[0.2em] text-sm">Who We Are</span><div className="h-[2px] w-12 bg-gize-orange" /></div>
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-white leading-tight mb-6">About <span className="text-gize-orange">Gize PLC</span></h1>
-            <p className="text-white/70 text-lg max-w-2xl mx-auto">Founded with a vision to transform African logistics, Gize PLC has grown into a trusted partner for businesses seeking reliable, efficient, and innovative supply chain solutions.</p>
+            <p className="text-white/70 text-lg max-w-2xl mx-auto">A globally recognized private limited company headquartered in Addis Ababa, Ethiopia — leading in shipping, logistics, energy, digital banking, and beyond.</p>
           </motion.div>
         </div>
       </section>
@@ -48,9 +48,9 @@ export default function AboutPage() {
               <div className="flex items-center gap-3 mb-6"><div className="h-[2px] w-12 bg-gize-orange" /><span className="text-gize-red font-semibold uppercase tracking-[0.2em] text-sm">Our Story</span></div>
               <h2 className="text-3xl sm:text-4xl font-bold text-gize-navy mb-6 leading-tight">Building Bridges Across Continents</h2>
               <div className="space-y-4 text-gray-600 leading-relaxed">
-                <p>Gize PLC was born from a simple but powerful idea: Africa deserves world-class logistics infrastructure. Founded in Addis Ababa in 1998, we started with a small fleet of trucks and a big dream — to connect Ethiopian businesses to global markets.</p>
-                <p>Over two decades later, we&apos;ve built an extensive network spanning major ports, warehousing hubs, and transport corridors across Africa, Asia, Europe, and the Americas.</p>
-                <p>Today, Gize PLC handles over 10,000 shipments annually, serves clients in 50+ countries, and employs a dedicated team of logistics professionals.</p>
+                <p>Founded in 2001 by Gizeshwork Tessema, GIZE PLC began as a shipping and logistics firm in Addis Ababa with a bold vision: to transform how goods and services move across Ethiopia and beyond.</p>
+                <p>Over two decades later, GIZE PLC has evolved into a diversified multinational business powerhouse operating across six key sectors: shipping &amp; logistics, energy consulting, digital &amp; investment banking, polymer distribution, digital health &amp; telemedicine, and real estate development.</p>
+                <p>With a commitment to excellence, sustainability, and ethical business practices, the company has successfully facilitated major infrastructure projects, optimized supply chains, and supported international trade — contributing significantly to Ethiopia&apos;s economic growth.</p>
               </div>
               <div className="grid grid-cols-3 gap-6 mt-10 pt-8 border-t border-gray-200">
                 <div><div className="text-3xl font-bold text-gize-red">25+</div><div className="text-sm text-gray-500 mt-1">Years Experience</div></div>
@@ -83,7 +83,7 @@ export default function AboutPage() {
                 <div className="p-8 lg:p-10">
                   <h3 className="text-white text-2xl sm:text-3xl font-bold">Gizeshwork Tessema</h3>
                   <p className="text-gize-orange font-medium text-sm uppercase tracking-wider mt-2 mb-5">CEO & Founder, Gize PLC</p>
-                  <p className="text-white/60 text-sm leading-relaxed">With a passion for connecting African businesses to global markets, Gizeshwork founded Gize PLC to bridge logistics gaps and drive economic growth through trade infrastructure and innovative supply chain solutions.</p>
+                  <p className="text-white/60 text-sm leading-relaxed">One of Ethiopia&apos;s most influential entrepreneurs, Gizeshwork Tessema has led GIZE PLC to become a multinational business powerhouse. With a background in Business Management from Addis Ababa University and executive training from Harvard Business School, she is a recognized expert in logistics, supply chain management, and business strategy.</p>
                 </div>
               </div>
             </motion.div>
@@ -91,8 +91,9 @@ export default function AboutPage() {
               <div className="flex items-center gap-3 mb-6"><div className="h-[2px] w-12 bg-gize-orange" /><span className="text-gize-red font-semibold uppercase tracking-[0.2em] text-sm">Leadership</span></div>
               <h2 className="text-3xl sm:text-4xl font-bold text-gize-navy mb-6 leading-tight">A Visionary Leader Driving Change</h2>
               <div className="space-y-4 text-gray-600 leading-relaxed">
-                <p>&ldquo;When I started Gize PLC, I saw an opportunity to transform how goods move across Africa and beyond. Our continent has immense potential — and logistics is the backbone that unlocks it,&rdquo; says Gizeshwork Tessema.</p>
-                <p>With over 25 years in the logistics industry, Gizeshwork has built Gize PLC into a company that doesn&apos;t just move cargo — it moves economies.</p>
+                <p>&ldquo;When I started GIZE PLC, I saw an opportunity to transform how goods move across Africa and beyond. Our continent has immense potential — and logistics is the backbone that unlocks it,&rdquo; says Gizeshwork Tessema.</p>
+                <p>One of Ethiopia&apos;s most influential entrepreneurs, Gizeshwork has led GIZE PLC to become a multinational business powerhouse. With a background in Business Management from Addis Ababa University and executive training from Harvard Business School, she is a recognized expert in logistics, supply chain management, and business strategy.</p>
+                <p>Her leadership focuses on expanding Ethiopia&apos;s logistics and infrastructure sectors, promoting sustainable development and international trade, empowering women in business and technology, and driving innovation in digital health, banking, and energy solutions.</p>
               </div>
               <div className="grid sm:grid-cols-2 gap-3 mt-8">
                 {highlights.map((item) => (
