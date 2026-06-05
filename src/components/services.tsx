@@ -1,37 +1,64 @@
 'use client';
 
 import { motion } from 'framer-motion';
-import { ArrowRight, Ship, Warehouse, Truck } from 'lucide-react';
+import { ArrowRight, Ship, Zap, Banknote, Package, HeartPulse, Building2 } from 'lucide-react';
 import Image from 'next/image';
 import Link from 'next/link';
 
 const services = [
   {
     icon: Ship,
-    title: 'Ocean Shipping',
-    slug: 'ocean-shipping',
+    title: 'Shipping & Logistics',
+    slug: 'shipping-logistics',
     description:
-      'Reliable sea freight solutions connecting major ports worldwide. Full container load (FCL) and less-than-container load (LCL) options tailored to your needs.',
+      'Freight forwarding, ship chartering, and multimodal transport solutions for major construction and infrastructure projects worldwide.',
     image: '/images/ocean-shipping.jpg',
-    features: ['Full & Partial Containers', 'Port-to-Port Delivery', 'Real-time Tracking'],
+    features: ['Freight Forwarding & Chartering', 'Procurement Logistics', 'Real-time Tracking'],
   },
   {
-    icon: Warehouse,
-    title: 'Warehousing',
-    slug: 'warehousing',
+    icon: Zap,
+    title: 'Energy Consulting',
+    slug: 'energy-consulting',
     description:
-      'State-of-the-art warehouse facilities with climate control, inventory management, and distribution services strategically located near major transport hubs.',
+      'Supporting renewable energy projects — solar PV, wind, and small hydro — through Unsolicited Bid PPP models and strategic advisory.',
+    image: '/images/containers-aerial.jpg',
+    features: ['Solar, Wind & Hydro Projects', 'PPP Advisory', 'IPDC Partnership'],
+  },
+  {
+    icon: Banknote,
+    title: 'Digital & Investment Banking',
+    slug: 'digital-banking',
+    description:
+      'Pioneering payment switch systems and financial technology solutions for leading Ethiopian banks and international institutions.',
     image: '/images/warehousing.jpg',
-    features: ['Climate Controlled', 'Inventory Management', 'Pick & Pack'],
+    features: ['Payment Switch Systems', 'FinTech Innovation', 'Strategic Advisory'],
   },
   {
-    icon: Truck,
-    title: 'Land Transport',
-    slug: 'land-transport',
+    icon: Package,
+    title: 'Polymer Distribution',
+    slug: 'polymer-distribution',
     description:
-      'Comprehensive ground transportation network offering full truckload, less-than-truckload, and last-mile delivery solutions across multiple regions.',
+      'High-quality polymer materials with credit facilities for Ethiopia\'s plastic manufacturing industry, backed by international supplier partnerships.',
     image: '/images/logistics-truck.jpg',
-    features: ['Full Truckload', 'Cross-border Transport', 'Last-mile Delivery'],
+    features: ['Quality Materials', 'Credit Facilities', 'Competitive Pricing'],
+  },
+  {
+    icon: HeartPulse,
+    title: 'Digital Health & Telemedicine',
+    slug: 'digital-health',
+    description:
+      'Telemedicine solutions powered by Starlink, connecting doctors and patients in over 100 underserved rural locations across Africa.',
+    image: '/images/case-study-1.jpg',
+    features: ['100+ Telemedicine Sites', 'Starlink Connectivity', 'Maternal Health Focus'],
+  },
+  {
+    icon: Building2,
+    title: 'Real Estate Development',
+    slug: 'real-estate',
+    description:
+      'Large-scale property development including 20+ parking facilities with EV charging stations and modern urban infrastructure projects.',
+    image: '/images/case-study-2.jpg',
+    features: ['EV Charging Facilities', 'Urban Infrastructure', 'Sustainable Design'],
   },
 ];
 
@@ -55,7 +82,7 @@ export default function Services() {
               Discover Our Services
             </h2>
             <p className="text-white/80 text-lg max-w-2xl mx-auto">
-              End-to-end logistics solutions designed for success — from the first mile to the last.
+              Six business divisions driving sustainable growth and economic transformation in Ethiopia and beyond.
             </p>
           </motion.div>
         </div>

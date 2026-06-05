@@ -216,9 +216,12 @@ export default function Contact() {
                     className="w-full bg-white border border-gray-200 rounded-lg h-11 px-3 text-sm text-gray-700 focus:border-gize-red focus:outline-none focus:ring-1 focus:ring-gize-red/20 transition-colors"
                   >
                     <option value="">Select a service</option>
-                    <option value="ocean">Ocean Shipping</option>
-                    <option value="warehousing">Warehousing</option>
-                    <option value="land">Land Transport</option>
+                    <option value="shipping">Shipping & Logistics</option>
+                    <option value="energy">Energy Consulting</option>
+                    <option value="banking">Digital & Investment Banking</option>
+                    <option value="polymer">Polymer Distribution</option>
+                    <option value="health">Digital Health & Telemedicine</option>
+                    <option value="realestate">Real Estate Development</option>
                     <option value="customs">Customs Brokerage</option>
                     <option value="other">Other</option>
                   </select>

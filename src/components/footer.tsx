@@ -6,10 +6,10 @@ import { ArrowUp } from 'lucide-react';
 
 const footerLinks = {
   services: [
-    { label: 'Ocean Shipping', href: '/services/ocean-shipping' },
-    { label: 'Warehousing', href: '/services/warehousing' },
-    { label: 'Land Transport', href: '/services/land-transport' },
-    { label: 'Customs Brokerage', href: '/services/customs-brokerage' },
+    { label: 'Shipping & Logistics', href: '/services/shipping-logistics' },
+    { label: 'Energy Consulting', href: '/services/energy-consulting' },
+    { label: 'Digital Banking', href: '/services/digital-banking' },
+    { label: 'Polymer Distribution', href: '/services/polymer-distribution' },
   ],
   company: [
     { label: 'About Us', href: '/about' },
@@ -46,7 +46,7 @@ export default function Footer() {
               <Image src="/images/logo.png" alt="Gize PLC" fill className="object-contain" />
             </Link>
             <p className="text-white/50 text-xs sm:text-sm leading-relaxed mb-4 max-w-xs">
-              Connecting businesses to global markets through innovative logistics, shipping, and warehousing solutions.
+              A globally recognized company driving excellence in logistics, energy, digital banking, and sustainable development across Ethiopia and beyond.
             </p>
             <div className="flex gap-3">
               {socialLinks.map((social) => (
