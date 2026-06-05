@@ -10,10 +10,10 @@ import { useToast } from '@/hooks/use-toast';
 import Footer from '@/components/footer';
 
 const contactInfo = [
-  { icon: MapPin, title: 'Head Office', details: ['Addis Ababa, Ethiopia', 'Bole Road, Atlas Building'] },
-  { icon: Phone, title: 'Phone', details: ['+251 11 234 5678', '+251 91 234 5678'] },
-  { icon: Mail, title: 'Email', details: ['info@gizeplc.com', 'sales@gizeplc.com'] },
-  { icon: Clock, title: 'Working Hours', details: ['Mon–Fri: 8:00 AM – 6:00 PM', 'Sat: 9:00 AM – 1:00 PM'] },
+  { icon: MapPin, title: 'Head Office', details: ['Addis Ababa, Ethiopia', 'Bole Rwanda Embassy Road'] },
+  { icon: Phone, title: 'Phone', details: ['+251 911 516478'] },
+  { icon: Mail, title: 'Email', details: ['gize@gizeplc.com'] },
+  { icon: Clock, title: 'Working Hours', details: ['Contact us for working hours'] },
 ];
 
 export default function ContactPage() {
@@ -39,7 +39,7 @@ export default function ContactPage() {
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <div className="flex items-center justify-center gap-3 mb-6"><div className="h-[2px] w-12 bg-gize-orange" /><span className="text-gize-orange font-semibold uppercase tracking-[0.2em] text-sm">Get In Touch</span><div className="h-[2px] w-12 bg-gize-orange" /></div>
           <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-white leading-tight mb-6">Contact <span className="text-gize-orange">Us</span></h1>
-          <p className="text-white/70 text-lg max-w-2xl mx-auto">Ready to streamline your logistics? Get in touch with our team for a free consultation.</p>
+          <p className="text-white/70 text-lg max-w-2xl mx-auto">Ready to explore how GIZE PLC can support your business? Get in touch with our team for a free consultation.</p>
         </div>
       </section>
 
@@ -57,7 +57,7 @@ export default function ContactPage() {
                 <div className="absolute inset-0 opacity-10"><svg className="w-full h-full" viewBox="0 0 400 200"><defs><pattern id="dots" width="20" height="20" patternUnits="userSpaceOnUse"><circle cx="10" cy="10" r="1" fill="white" /></pattern></defs><rect width="100%" height="100%" fill="url(#dots)" /></svg></div>
                 <div className="relative">
                   <div className="flex items-center gap-2 mb-3"><MapPin className="text-gize-orange" size={18} /><span className="text-white font-semibold text-sm">Our Location</span></div>
-                  <p className="text-white/60 text-sm leading-relaxed">Bole Road, Atlas Building<br />Addis Ababa, Ethiopia</p>
+                  <p className="text-white/60 text-sm leading-relaxed">Bole Rwanda Embassy Road<br />Addis Ababa, Ethiopia</p>
                 </div>
               </div>
             </div>
@@ -69,9 +69,9 @@ export default function ContactPage() {
                 </div>
                 <div className="grid sm:grid-cols-2 gap-5 mb-5">
                   <div><label className="block text-gize-navy font-semibold text-sm mb-2">Phone Number</label><Input name="phone" type="tel" value={formData.phone} onChange={handleChange} placeholder="+251 91 234 5678" className="bg-white border-gray-200 focus:border-gize-red rounded-lg h-11 text-sm" /></div>
-                  <div><label className="block text-gize-navy font-semibold text-sm mb-2">Service Interested In</label><select name="service" value={formData.service} onChange={handleChange} className="w-full bg-white border border-gray-200 rounded-lg h-11 px-3 text-sm text-gray-700 focus:border-gize-red focus:outline-none"><option value="">Select a service</option><option value="ocean">Ocean Shipping</option><option value="warehousing">Warehousing</option><option value="land">Land Transport</option><option value="customs">Customs Brokerage</option><option value="other">Other</option></select></div>
+                  <div><label className="block text-gize-navy font-semibold text-sm mb-2">Service Interested In</label><select name="service" value={formData.service} onChange={handleChange} className="w-full bg-white border border-gray-200 rounded-lg h-11 px-3 text-sm text-gray-700 focus:border-gize-red focus:outline-none"><option value="">Select a service</option><option value="shipping">Shipping & Logistics</option><option value="energy">Energy Consulting</option><option value="banking">Digital & Investment Banking</option><option value="polymer">Polymer Distribution</option><option value="health">Digital Health & Telemedicine</option><option value="realestate">Real Estate Development</option><option value="other">Other</option></select></div>
                 </div>
-                <div className="mb-6"><label className="block text-gize-navy font-semibold text-sm mb-2">Message <span className="text-gize-red">*</span></label><Textarea name="message" value={formData.message} onChange={handleChange} placeholder="Tell us about your shipping needs..." required rows={5} className="bg-white border-gray-200 focus:border-gize-red rounded-lg text-sm resize-none" /></div>
+                <div className="mb-6"><label className="block text-gize-navy font-semibold text-sm mb-2">Message <span className="text-gize-red">*</span></label><Textarea name="message" value={formData.message} onChange={handleChange} placeholder="Tell us about your project needs..." required rows={5} className="bg-white border-gray-200 focus:border-gize-red rounded-lg text-sm resize-none" /></div>
                 <Button type="submit" disabled={submitting} className="bg-gize-red hover:bg-red-700 text-white w-full sm:w-auto px-10 py-3 font-bold uppercase tracking-wide rounded-none h-auto text-sm disabled:opacity-60">
                   {submitting ? <span className="flex items-center gap-2"><svg className="animate-spin h-4 w-4" viewBox="0 0 24 24"><circle className="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="4" fill="none" /><path className="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4z" /></svg>Sending...</span> : <span className="flex items-center gap-2"><Send size={16} />Send Message</span>}
                 </Button>

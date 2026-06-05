@@ -10,6 +10,8 @@ const footerLinks = {
     { label: 'Energy Consulting', href: '/services/energy-consulting' },
     { label: 'Digital Banking', href: '/services/digital-banking' },
     { label: 'Polymer Distribution', href: '/services/polymer-distribution' },
+    { label: 'Digital Health', href: '/services/digital-health' },
+    { label: 'Real Estate', href: '/services/real-estate' },
   ],
   company: [
     { label: 'About Us', href: '/about' },

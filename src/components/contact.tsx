@@ -17,7 +17,7 @@ const contactInfo = [
   {
     icon: Phone,
     title: 'Phone',
-    details: ['+251 115 528080', ' +251 911 516478'],
+    details: ['+251 911 516478'],
   },
   {
     icon: Mail,
@@ -27,7 +27,7 @@ const contactInfo = [
   {
     icon: Clock,
     title: 'Working Hours',
-    details: ['Mon–Fri: 8:00 AM – 6:00 PM', 'Sat: 9:00 AM – 1:00 PM'],
+    details: ['Contact us for working hours'],
   },
 ];
 
@@ -146,7 +146,7 @@ export default function Contact() {
                 </p>
                 <div className="mt-4 h-[1px] bg-white/10" />
                 <p className="text-white/40 text-xs mt-3">
-                  Serving clients across Africa, Asia, Europe & the Americas
+                  Connecting businesses across Africa, Asia, the Middle East & Europe
                 </p>
               </div>
             </div>
@@ -222,7 +222,6 @@ export default function Contact() {
                     <option value="polymer">Polymer Distribution</option>
                     <option value="health">Digital Health & Telemedicine</option>
                     <option value="realestate">Real Estate Development</option>
-                    <option value="customs">Customs Brokerage</option>
                     <option value="other">Other</option>
                   </select>
                 </div>

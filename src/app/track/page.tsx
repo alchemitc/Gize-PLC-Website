@@ -96,7 +96,7 @@ export default function TrackPage() {
 
               <div className="mt-12 bg-gize-light rounded-2xl p-6 sm:p-8 text-center">
                 <h3 className="text-lg font-bold text-gize-navy mb-2">Need Help With Your Shipment?</h3>
-                <p className="text-gray-500 text-sm mb-4">Our logistics team is available 24/7 to assist.</p>
+                <p className="text-gray-500 text-sm mb-4">Our logistics team is available to assist.</p>
                 <Link href="/contact"><Button className="bg-gize-red hover:bg-red-700 text-white px-6 py-2.5 font-bold uppercase tracking-wide rounded-none h-auto text-sm">Contact Support</Button></Link>
               </div>
             </motion.div>

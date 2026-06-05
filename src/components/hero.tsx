@@ -186,7 +186,7 @@ export default function Hero() {
             <div className="flex gap-8 sm:gap-12 mt-14 pt-8 border-t border-white/20">
               <StatCounter target={25} suffix="+" label="Years Experience" />
               <StatCounter target={6} label="Business Divisions" />
-              <StatCounter target={100} suffix="+" label="Projects Delivered" />
+              <StatCounter target={7} suffix="+" label="Countries Served" />
             </div>
           </motion.div>
         </div>

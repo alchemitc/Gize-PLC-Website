@@ -10,9 +10,9 @@ const geistSans = Geist({ variable: "--font-geist-sans", subsets: ["latin"] });
 const geistMono = Geist_Mono({ variable: "--font-geist-mono", subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Gize PLC — Logistics, Shipping & Warehousing",
-  description: "Gize PLC is a leading logistics and shipping company providing end-to-end supply chain solutions.",
-  keywords: ["Gize PLC", "logistics", "shipping", "warehousing", "container shipping", "supply chain", "freight"],
+  title: "Gize PLC — Logistics, Energy, Digital Banking & More",
+  description: "Gize PLC is a diversified Ethiopian company operating across logistics, energy consulting, digital banking, polymer distribution, digital health, and real estate.",
+  keywords: ["Gize PLC", "logistics", "energy consulting", "digital banking", "polymer distribution", "telemedicine", "real estate", "supply chain", "Ethiopia"],
   authors: [{ name: "Gize PLC" }],
 };
 

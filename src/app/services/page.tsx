@@ -27,7 +27,7 @@ export default function ServicesPage() {
               <div className="h-[2px] w-12 bg-gize-orange" />
             </div>
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-white leading-tight mb-6">Our <span className="text-gize-orange">Services</span></h1>
-            <p className="text-white/70 text-lg max-w-2xl mx-auto">Comprehensive logistics solutions tailored to your business needs.</p>
+            <p className="text-white/70 text-lg max-w-2xl mx-auto">Comprehensive business solutions across six key sectors.</p>
           </motion.div>
         </div>
       </section>
@@ -70,7 +70,7 @@ export default function ServicesPage() {
       <section className="bg-gize-red py-16 lg:py-20">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl sm:text-4xl font-bold text-white mb-4">Need a Custom Solution?</h2>
-          <p className="text-white/80 text-lg mb-8 max-w-2xl mx-auto">Every business is unique. Let our team design a tailored logistics plan.</p>
+          <p className="text-white/80 text-lg mb-8 max-w-2xl mx-auto">Every business is unique. Let our team design a tailored solution for your needs.</p>
           <Link href="/contact">
             <button className="bg-white text-gize-navy hover:bg-white/90 px-10 py-3.5 font-bold uppercase tracking-wide h-auto text-base cursor-pointer transition-colors">Contact Our Team</button>
           </Link>

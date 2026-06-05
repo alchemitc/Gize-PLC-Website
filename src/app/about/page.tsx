@@ -55,7 +55,7 @@ export default function AboutPage() {
               <div className="grid grid-cols-3 gap-6 mt-10 pt-8 border-t border-gray-200">
                 <div><div className="text-3xl font-bold text-gize-red">25+</div><div className="text-sm text-gray-500 mt-1">Years Experience</div></div>
                 <div><div className="text-3xl font-bold text-gize-orange">6</div><div className="text-sm text-gray-500 mt-1">Business Divisions</div></div>
-                <div><div className="text-3xl font-bold text-gize-navy">100+</div><div className="text-sm text-gray-500 mt-1">Projects Delivered</div></div>
+                <div><div className="text-3xl font-bold text-gize-navy">7+</div><div className="text-sm text-gray-500 mt-1">Countries Served</div></div>
               </div>
             </motion.div>
             <motion.div initial={{ opacity: 0, x: 30 }} whileInView={{ opacity: 1, x: 0 }} viewport={{ once: true }} transition={{ duration: 0.6, delay: 0.2 }}>
@@ -101,7 +101,7 @@ export default function AboutPage() {
               <div className="flex items-center gap-3 mb-6"><div className="h-[2px] w-12 bg-gize-orange" /><span className="text-gize-red font-semibold uppercase tracking-[0.2em] text-sm">Leadership</span></div>
               <h2 className="text-3xl sm:text-4xl font-bold text-gize-navy mb-6 leading-tight">A Visionary Leader Driving Change</h2>
               <div className="space-y-4 text-gray-600 leading-relaxed">
-                <p>&ldquo;When I started GIZE PLC, I saw an opportunity to transform how goods move across Africa and beyond. Our continent has immense potential — and logistics is the backbone that unlocks it,&rdquo; says Gizeshwork Tessema.</p>
+                <p>Under Gizeshwork Tessema&rsquo;s leadership, GIZE PLC has grown from a single shipping firm into a diversified multinational business operating across six key sectors.</p>
                 <p>One of Ethiopia&apos;s most influential entrepreneurs, Gizeshwork has led GIZE PLC to become a multinational business powerhouse. With a background in Business Management from Addis Ababa University and executive training from Harvard Business School, she is a recognized expert in logistics, supply chain management, and business strategy.</p>
                 <p>Her leadership focuses on expanding Ethiopia&apos;s logistics and infrastructure sectors, promoting sustainable development and international trade, empowering women in business and technology, and driving innovation in digital health, banking, and energy solutions.</p>
               </div>
@@ -138,7 +138,7 @@ export default function AboutPage() {
       <section className="bg-gize-red py-16 lg:py-20">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl sm:text-4xl font-bold text-white mb-4">Ready to Partner With Us?</h2>
-          <p className="text-white/80 text-lg mb-8 max-w-2xl mx-auto">Join the hundreds of businesses that trust Gize PLC with their logistics needs.</p>
+          <p className="text-white/80 text-lg mb-8 max-w-2xl mx-auto">Partner with GIZE PLC across our six business divisions — from logistics and energy to digital banking and beyond.</p>
           <Link href="/contact"><Button className="bg-white text-gize-navy hover:bg-white/90 px-10 py-3.5 font-bold uppercase tracking-wide rounded-none h-auto text-base">Get In Touch <ArrowRight size={18} className="ml-2" /></Button></Link>
         </div>
       </section>

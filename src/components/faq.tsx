@@ -9,22 +9,22 @@ const faqs = [
   {
     question: 'How can I track my shipment?',
     answer:
-      'Once your shipment is booked, you will receive a tracking number and a link to our real-time tracking portal. You can monitor your cargo\'s location, estimated arrival, and status updates 24/7 from any device.',
+      'Once your shipment is booked, you will receive a tracking number and a link to our real-time tracking portal. You can monitor your cargo\'s location, estimated arrival, and status updates from any device.',
   },
   {
     question: 'What is your typical delivery time?',
     answer:
-      'Delivery times vary depending on the origin, destination, and shipping method. Ocean freight typically takes 15–45 days for international routes, while land transport within the region is usually 2–7 days. We provide accurate ETAs at the time of booking.',
+      'Delivery times depend on the origin, destination, and mode of transport. We provide accurate estimated delivery times at the time of booking based on your specific route and requirements. Contact our team for a detailed timeline.',
   },
   {
     question: 'Do you ship internationally?',
     answer:
-      'Yes, Gize PLC operates across more than 50 countries spanning Africa, Asia, Europe, and the Americas. Our global network of partners and owned infrastructure enables seamless cross-border logistics for businesses of all sizes.',
+      'Yes, GIZE PLC operates internationally with project experience across Africa, Asia, the Middle East, and Europe. Our global partner network includes operations in Ethiopia, Djibouti, Spain, India, Japan, South Korea, and the UAE.',
   },
   {
     question: 'How do you calculate shipping costs?',
     answer:
-      'Shipping costs depend on several factors including cargo weight and volume, origin and destination, shipping method (FCL/LCL, air, sea, or land), and any special handling requirements. Contact our sales team for a detailed, competitive quote tailored to your needs.',
+      'Costs depend on cargo weight and volume, origin and destination, shipping method (FCL/LCL, sea, or land), and any special handling requirements. Contact our team for a detailed, competitive quote tailored to your needs.',
   },
   {
     question: 'What payment methods do you accept?',
@@ -34,7 +34,7 @@ const faqs = [
   {
     question: 'How do I contact customer service?',
     answer:
-      'You can reach our customer service team 24/7 via phone, email, or through the contact form on this website. We also provide a dedicated account manager for all contracted clients to ensure personalized support.',
+      'You can reach our team via phone at +251 911 516478, email at gize@gizeplc.com, or through the contact form on this website. We also provide a dedicated account manager for contracted clients.',
   },
 ];
 
@@ -67,7 +67,7 @@ export default function FAQ() {
             Frequently Asked Questions
           </h2>
           <p className="text-gray-500 text-lg max-w-xl mx-auto mt-4">
-            Find answers to common questions about our services, shipping, and logistics.
+            Find answers to common questions about our services and operations.
           </p>
         </motion.div>
 

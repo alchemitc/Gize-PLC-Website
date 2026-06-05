@@ -1,4 +1,4 @@
-import { Ship, Warehouse, Truck, Zap, Building2, HeartPulse, Banknote, Package } from 'lucide-react';
+import { Ship, Zap, Building2, HeartPulse, Banknote, Package } from 'lucide-react';
 import { LucideIcon } from 'lucide-react';
 
 export interface Service {
@@ -55,7 +55,7 @@ export const allServices: Service[] = [
       'GIZE PLC supplies high-quality polymer materials and offers credit facilities to Ethiopia\'s plastic manufacturing industry. The company partners with international suppliers to ensure competitive pricing and quality assurance. Our distribution network is built on strong relationships with global polymer manufacturers, enabling us to provide reliable supply chains and flexible financing options that support the growth of Ethiopia\'s manufacturing sector.',
     image: '/images/warehousing.jpg',
     features: ['High-Quality Polymer Supply', 'Credit Facilities for Manufacturers', 'International Supplier Partnerships', 'Competitive Pricing', 'Quality Assurance', 'Reliable Distribution Network'],
-    stats: { stat: '100+', label: 'Manufacturers Served' },
+    stats: { stat: 'International', label: 'Supplier Partnerships' },
   },
   {
     slug: 'digital-health',
@@ -79,28 +79,7 @@ export const allServices: Service[] = [
     features: ['20+ Parking Facilities with EV Charging', '$130M Equity Financing Pipeline', 'Modern Urban Infrastructure', 'Sustainable Development Practices', 'Strategic Partnership Exploration', 'Commercial & Mixed-Use Development'],
     stats: { stat: '20+', label: 'Buildings in Development' },
   },
-  {
-    slug: 'customs-brokerage',
-    icon: Warehouse,
-    title: 'Customs Brokerage',
-    shortDescription: 'Expert customs clearance and regulatory compliance support.',
-    fullDescription:
-      'Navigating customs regulations can be complex and time-consuming. Our licensed customs brokers handle all aspects of import and export clearance, ensuring your shipments comply with local and international trade regulations. We manage documentation, tariff classification, duty optimization, and liaise with customs authorities on your behalf.',
-    image: '/images/logistics-truck.jpg',
-    features: ['Import & Export Clearance', 'Tariff Classification & Optimization', 'Trade Compliance Advisory', 'Documentation Management', 'Duty Drawback Services', 'Free Trade Zone Processing'],
-    stats: { stat: '98%', label: 'Clearance Success Rate' },
-  },
-  {
-    slug: 'supply-chain-consulting',
-    icon: Truck,
-    title: 'Supply Chain Consulting',
-    shortDescription: 'Strategic logistics optimization for maximum efficiency.',
-    fullDescription:
-      'Our supply chain consulting team brings decades of industry expertise to help you design, optimize, and manage your logistics operations. From network design and route optimization to warehouse layout and technology integration, we identify inefficiencies and implement data-driven solutions that deliver measurable results.',
-    image: '/images/hero-port.jpg',
-    features: ['Network Design & Optimization', 'Route Planning & Analysis', 'Technology Integration (ERP, TMS)', 'Cost Reduction Strategies', 'Performance Benchmarking', 'Sustainability Roadmaps'],
-    stats: { stat: '30%', label: 'Avg. Cost Savings' },
-  },
+
 ];
 
 export function getServiceBySlug(slug: string): Service | undefined {
