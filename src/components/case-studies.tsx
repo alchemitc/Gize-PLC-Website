@@ -7,24 +7,24 @@ import Link from 'next/link';
 
 const caseStudies = [
   {
-    title: 'Multi-Modal Transport Solution for Peak Holiday Season',
+    title: 'Procurement & Logistics for Major Construction Projects',
     description:
-      'We designed an integrated sea-and-road logistics plan that moved 3,200+ containers across 12 countries in under 6 weeks — on time and under budget.',
+      'GIZE PLC managed procurement and logistics for Dragados J&P, CCC, BHEL, and DIAGO Brewery — delivering construction materials and equipment on time for critical infrastructure projects across Ethiopia.',
     image: '/images/case-study-1.jpg',
-    tag: 'Seasonal Logistics',
-    stat: '3,200+',
-    statLabel: 'Containers Shipped',
-    link: '/services/ocean-shipping',
+    tag: 'Shipping & Logistics',
+    stat: '25+',
+    statLabel: 'Years of Operations',
+    link: '/services/shipping-logistics',
   },
   {
-    title: 'Leveraging Electric Vehicles for 5,000 km Long-Haul Transport in China',
+    title: 'Renewable Energy Development Through PPP Models',
     description:
-      'A pioneering green logistics initiative using an electric truck fleet to cover 5,000 km of highway, reducing carbon emissions by 42% while maintaining delivery speed.',
+      'Led the development of solar PV, wind, and small hydro projects through Unsolicited Bid PPP models, securing an MoU with IPDC and developing a pipeline of four viable renewable energy projects in Ethiopia.',
     image: '/images/case-study-2.jpg',
-    tag: 'Sustainable Shipping',
-    stat: '42%',
-    statLabel: 'CO₂ Reduction',
-    link: '/services/land-transport',
+    tag: 'Energy Consulting',
+    stat: '4',
+    statLabel: 'Energy Projects Developed',
+    link: '/services/energy-consulting',
   },
 ];
 
