@@ -5,12 +5,12 @@ import Image from 'next/image';
 import { CheckCircle2 } from 'lucide-react';
 
 const highlights = [
-  'End-to-end supply chain visibility',
-  'Dedicated account management',
-  'Customs brokerage & compliance',
-  'Temperature-controlled logistics',
-  'Multi-modal transport solutions',
-  '24/7 operations & support',
+  'Shipping, logistics & supply chain management',
+  'Energy consulting & infrastructure development',
+  'Digital & investment banking solutions',
+  'Polymer distribution for manufacturing',
+  'Digital health & telemedicine services',
+  'Property management & real estate development',
 ];
 
 export default function About() {
@@ -37,14 +37,17 @@ export default function About() {
                 About Gize PLC
               </h2>
               <p className="text-white/85 text-base leading-relaxed mb-4">
-                Founded with a vision to transform African logistics, Gize PLC has grown 
-                into a trusted partner for businesses seeking reliable, efficient, and 
-                innovative supply chain solutions.
+                GIZE PLC is a globally recognized private limited company headquartered 
+                in Addis Ababa, Ethiopia. Founded in 2001 by Gizeshwork Tessema, the 
+                company has established itself as a leader in shipping, logistics, energy 
+                consulting, infrastructure development, digital banking, investment banking, 
+                and polymer distribution.
               </p>
               <p className="text-white/70 text-base leading-relaxed">
-                With over two decades of experience, we&apos;ve built an extensive network 
-                spanning major ports, warehousing hubs, and transport corridors — enabling 
-                seamless trade flows across multiple continents.
+                With a commitment to excellence, sustainability, and ethical business 
+                practices, GIZE PLC has successfully facilitated major infrastructure 
+                projects, optimized supply chains, and supported international trade, 
+                contributing to Ethiopia&apos;s economic growth.
               </p>
             </motion.div>
 
@@ -94,9 +97,11 @@ export default function About() {
                   CEO & Founder, Gize PLC
                 </p>
                 <p className="text-white/60 text-sm leading-relaxed">
-                  With a passion for connecting African businesses to global markets, 
-                  Gizeshwork founded Gize PLC to bridge logistics gaps and drive economic 
-                  growth through trade infrastructure and innovative supply chain solutions.
+                  One of Ethiopia&apos;s most influential entrepreneurs, Gizeshwork Tessema has 
+                  led GIZE PLC to become a multinational business powerhouse. With a background 
+                  in Business Management from Addis Ababa University and executive training 
+                  from Harvard Business School, she is a recognized expert in logistics, supply 
+                  chain management, and business strategy.
                 </p>
               </div>
             </div>
@@ -117,12 +122,12 @@ export default function About() {
               </span>
             </div>
             <h3 className="text-2xl sm:text-3xl font-bold text-gize-navy mb-4">
-              Built for businesses that move the world
+              Six divisions, one commitment to excellence
             </h3>
             <p className="text-gray-500 text-base leading-relaxed mb-8 max-w-xl">
-              We combine local expertise with global reach, offering tailored solutions 
-              that scale with your ambitions. Every shipment is backed by decades of 
-              experience and a relentless focus on reliability.
+              From shipping and logistics to energy consulting, digital banking, polymer 
+              distribution, telemedicine, and real estate — GIZE PLC delivers world-class 
+              solutions across every sector we serve.
             </p>
 
             <div className="grid sm:grid-cols-2 gap-4">
