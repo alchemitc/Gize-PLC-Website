@@ -65,7 +65,7 @@ export default function WeConnect() {
   const sectionRef = useRef<HTMLElement>(null);
 
   return (
-    <section ref={sectionRef} className="relative bg-gize-navy py-12 lg:py-16 overflow-hidden">
+    <section ref={sectionRef} className="relative bg-gize-navy py-10 lg:py-14 overflow-hidden">
       {/* Background Pattern */}
       <div className="absolute inset-0 opacity-5">
         <svg className="w-full h-full" viewBox="0 0 1200 400">
@@ -83,7 +83,7 @@ export default function WeConnect() {
       <div className="absolute -left-32 -bottom-32 w-80 h-80 bg-gize-red/5 rounded-full blur-3xl" />
 
       <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="grid lg:grid-cols-2 gap-16 items-center">
+        <div className="grid lg:grid-cols-2 gap-10 lg:gap-14 items-center">
           {/* Left - Text Content */}
           <motion.div
             initial={{ opacity: 0, x: -40 }}
@@ -104,9 +104,9 @@ export default function WeConnect() {
             </h2>
 
             {/* Vision */}
-            <div className="mb-8">
-              <p className="text-gize-orange/80 text-xs font-semibold uppercase tracking-[0.2em] mb-2">Our Vision</p>
-              <p className="text-white/70 text-lg max-w-lg leading-relaxed">
+            <div className="mb-5">
+              <p className="text-gize-orange/80 text-xs font-semibold uppercase tracking-[0.2em] mb-1.5">Our Vision</p>
+              <p className="text-white/70 text-base max-w-lg leading-relaxed">
                 To be a global leader in logistics, energy, and digital solutions, driving 
                 sustainable growth and economic transformation in Ethiopia and beyond.
               </p>
@@ -115,26 +115,26 @@ export default function WeConnect() {
             {/* Mission */}
             <div>
               <p className="text-gize-orange/80 text-xs font-semibold uppercase tracking-[0.2em] mb-4">Our Mission</p>
-              <div className="space-y-5">
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-x-6 gap-y-4">
                 {missionItems.map((item, index) => (
                   <motion.div
                     key={item.label}
-                    initial={{ opacity: 0, x: -20 }}
-                    whileInView={{ opacity: 1, x: 0 }}
+                    initial={{ opacity: 0, y: 10 }}
+                    whileInView={{ opacity: 1, y: 0 }}
                     viewport={{ once: true }}
-                    transition={{ duration: 0.5, delay: 0.2 + index * 0.12 }}
-                    className="flex items-start gap-4 group"
+                    transition={{ duration: 0.4, delay: 0.15 + index * 0.1 }}
+                    className="flex items-start gap-3 group"
                   >
-                    <div className="flex-shrink-0 w-10 h-10 bg-gize-red/20 border border-gize-red/30 rounded-lg flex items-center justify-center group-hover:bg-gize-red group-hover:border-gize-red transition-colors duration-300">
-                      <span className="text-gize-orange group-hover:text-white font-bold text-xs transition-colors duration-300">
+                    <div className="flex-shrink-0 w-8 h-8 bg-gize-red/20 border border-gize-red/30 rounded-lg flex items-center justify-center group-hover:bg-gize-red group-hover:border-gize-red transition-colors duration-300">
+                      <span className="text-gize-orange group-hover:text-white font-bold text-[11px] transition-colors duration-300">
                         {String(index + 1).padStart(2, '0')}
                       </span>
                     </div>
                     <div>
-                      <h3 className="text-white font-bold text-base uppercase tracking-wide">
+                      <h3 className="text-white font-bold text-sm uppercase tracking-wide">
                         {item.label}
                       </h3>
-                      <p className="text-white/50 text-sm mt-0.5">{item.description}</p>
+                      <p className="text-white/50 text-xs mt-0.5 leading-relaxed">{item.description}</p>
                     </div>
                   </motion.div>
                 ))}
