@@ -2,7 +2,7 @@
 
 import { motion } from 'framer-motion';
 import Image from 'next/image';
-import { CheckCircle2, ArrowRight } from 'lucide-react';
+import { CheckCircle2, ArrowRight, Trophy, Leaf, ShieldCheck, Lightbulb, LucideIcon } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import Link from 'next/link';
 import Footer from '@/components/footer';
@@ -17,11 +17,11 @@ const milestones = [
   { year: '2024', title: 'Digital Health & Real Estate', description: 'Launched telemedicine services in 100+ underserved locations using Starlink and initiated development of 20+ parking facilities with EV charging stations.' },
 ];
 
-const values = [
-  { title: 'Excellence', description: 'We pursue world-class standards across every division — from logistics to digital health — delivering solutions that exceed expectations.', icon: '\u2B50' },
-  { title: 'Sustainability', description: 'We promote renewable energy, environmentally friendly business solutions, and sustainable development practices across all operations.', icon: '\U0001F33F' },
-  { title: 'Ethics', description: 'Our business practices are guided by integrity and transparency, recognized globally through our UN Global Compact membership.', icon: '\u2705' },
-  { title: 'Innovation', description: 'From digital banking to telemedicine powered by Starlink, we leverage cutting-edge technology to transform industries and communities.', icon: '\U0001F4A1' },
+const values: { title: string; description: string; icon: LucideIcon }[] = [
+  { title: 'Excellence', description: 'We pursue world-class standards across every division — from logistics to digital health — delivering solutions that exceed expectations.', icon: Trophy },
+  { title: 'Sustainability', description: 'We promote renewable energy, environmentally friendly business solutions, and sustainable development practices across all operations.', icon: Leaf },
+  { title: 'Ethics', description: 'Our business practices are guided by integrity and transparency, recognized globally through our UN Global Compact membership.', icon: ShieldCheck },
+  { title: 'Innovation', description: 'From digital banking to telemedicine powered by Starlink, we leverage cutting-edge technology to transform industries and communities.', icon: Lightbulb },
 ];
 
 export default function AboutPage() {
@@ -125,7 +125,9 @@ export default function AboutPage() {
           <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
             {values.map((value, index) => (
               <motion.div key={value.title} initial={{ opacity: 0, y: 30 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.5, delay: index * 0.1 }} className="bg-white/5 backdrop-blur-sm border border-white/10 rounded-xl p-6 hover:bg-white/10 transition-all duration-300">
-                <div className="text-3xl mb-4">{value.icon}</div>
+                <div className="w-12 h-12 bg-gize-red/15 rounded-xl flex items-center justify-center mb-4">
+                  <value.icon className="text-gize-red" size={24} />
+                </div>
                 <h3 className="text-white font-bold text-lg mb-2">{value.title}</h3>
                 <p className="text-white/50 text-sm leading-relaxed">{value.description}</p>
               </motion.div>
