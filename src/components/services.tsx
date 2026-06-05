@@ -12,7 +12,7 @@ const services = [
     slug: 'shipping-logistics',
     description:
       'Freight forwarding, ship chartering, and multimodal transport solutions for major construction and infrastructure projects worldwide.',
-    image: '/images/ocean-shipping.jpg',
+    image: '/images/shipping-logistics.jpg',
     features: ['Freight Forwarding & Chartering', 'Procurement Logistics', 'Real-time Tracking'],
   },
   {
@@ -21,7 +21,7 @@ const services = [
     slug: 'energy-consulting',
     description:
       'Supporting renewable energy projects — solar PV, wind, and small hydro — through Unsolicited Bid PPP models and strategic advisory.',
-    image: '/images/containers-aerial.jpg',
+    image: '/images/energy-consulting.jpg',
     features: ['Solar, Wind & Hydro Projects', 'PPP Advisory', 'IPDC Partnership'],
   },
   {
@@ -30,7 +30,7 @@ const services = [
     slug: 'digital-banking',
     description:
       'Pioneering payment switch systems and financial technology solutions for leading Ethiopian banks and international institutions.',
-    image: '/images/warehousing.jpg',
+    image: '/images/digital-banking.jpg',
     features: ['Payment Switch Systems', 'FinTech Innovation', 'Strategic Advisory'],
   },
   {
@@ -39,7 +39,7 @@ const services = [
     slug: 'polymer-distribution',
     description:
       'High-quality polymer materials with credit facilities for Ethiopia\'s plastic manufacturing industry, backed by international supplier partnerships.',
-    image: '/images/logistics-truck.jpg',
+    image: '/images/polymer-distribution.jpg',
     features: ['Quality Materials', 'Credit Facilities', 'Competitive Pricing'],
   },
   {
@@ -48,7 +48,7 @@ const services = [
     slug: 'digital-health',
     description:
       'Telemedicine solutions powered by Starlink, connecting doctors and patients in over 100 underserved rural locations across Africa.',
-    image: '/images/case-study-1.jpg',
+    image: '/images/digital-health.jpg',
     features: ['100+ Telemedicine Sites', 'Starlink Connectivity', 'Maternal Health Focus'],
   },
   {
@@ -57,7 +57,7 @@ const services = [
     slug: 'real-estate',
     description:
       'Large-scale property development including 20+ parking facilities with EV charging stations and modern urban infrastructure projects.',
-    image: '/images/case-study-2.jpg',
+    image: '/images/real-estate.jpg',
     features: ['EV Charging Facilities', 'Urban Infrastructure', 'Sustainable Design'],
   },
 ];

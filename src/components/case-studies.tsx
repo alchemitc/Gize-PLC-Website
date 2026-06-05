@@ -10,7 +10,7 @@ const caseStudies = [
     title: 'Procurement & Logistics for Major Construction Projects',
     description:
       'GIZE PLC managed procurement and logistics for Dragados J&P, CCC, BHEL, and DIAGO Brewery — delivering construction materials and equipment on time for critical infrastructure projects across Ethiopia.',
-    image: '/images/case-study-1.jpg',
+    image: '/images/case-logistics.jpg',
     tag: 'Shipping & Logistics',
     stat: '25+',
     statLabel: 'Years of Operations',
@@ -20,7 +20,7 @@ const caseStudies = [
     title: 'Renewable Energy Development Through PPP Models',
     description:
       'Led the development of solar PV, wind, and small hydro projects through Unsolicited Bid PPP models, securing an MoU with IPDC and developing a pipeline of four viable renewable energy projects in Ethiopia.',
-    image: '/images/case-study-2.jpg',
+    image: '/images/case-energy.jpg',
     tag: 'Energy Consulting',
     stat: '4',
     statLabel: 'Energy Projects Developed',

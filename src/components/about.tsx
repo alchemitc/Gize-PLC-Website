@@ -60,7 +60,7 @@ export default function About() {
             >
               <div className="relative rounded-xl overflow-hidden h-80">
                 <Image
-                  src="/images/containers-aerial.jpg"
+                  src="/images/shipping-logistics.jpg"
                   alt="Shipping containers at Gize terminal"
                   fill
                   className="object-cover"

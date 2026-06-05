@@ -13,7 +13,7 @@ const contactInfo = [
   { icon: MapPin, title: 'Head Office', details: ['Addis Ababa, Ethiopia', 'Bole Rwanda Embassy Road'] },
   { icon: Phone, title: 'Phone', details: ['+251 911 516478'] },
   { icon: Mail, title: 'Email', details: ['gize@gizeplc.com'] },
-  { icon: Clock, title: 'Working Hours', details: ['Contact us for working hours'] },
+  { icon: Clock, title: 'Working Hours', details: ['Mon\u2013Fri: 8:00 AM \u2013 6:00 PM', 'Sat: 9:00 AM \u2013 1:00 PM'] },
 ];
 
 export default function ContactPage() {

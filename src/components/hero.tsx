@@ -9,22 +9,22 @@ import { ChevronLeft, ChevronRight } from 'lucide-react';
 /* ─── slide data ─── */
 const slides = [
   {
-    image: '/images/hero-port.jpg',
-    alt: 'Gize PLC shipping port',
+    image: '/images/shipping-logistics.jpg',
+    alt: 'Gize PLC shipping and logistics port',
     tag: 'Private Limited Company',
     headline: <>Global Logistics <span className="text-gize-orange">Solutions</span></>,
     description: 'End-to-end shipping, logistics, and supply chain management designed for businesses that demand reliability, efficiency, and strategic expertise.',
   },
   {
-    image: '/images/containers-aerial.jpg',
-    alt: 'Container terminal operations',
+    image: '/images/energy-consulting.jpg',
+    alt: 'Renewable energy solar panels',
     tag: 'Energy & Infrastructure',
     headline: <>Renewable <span className="text-gize-orange">Energy</span></>,
     description: 'Leading solar PV, wind, and small hydro project development through PPP models, driving Ethiopia\'s sustainable energy transformation.',
   },
   {
-    image: '/images/ocean-shipping.jpg',
-    alt: 'Ocean freight vessel',
+    image: '/images/digital-banking.jpg',
+    alt: 'Digital banking technology and data infrastructure',
     tag: 'Digital Innovation',
     headline: <>Digital <span className="text-gize-orange">Banking</span></>,
     description: 'Pioneering payment switch systems and financial technology solutions for leading Ethiopian banks and international financial institutions.',

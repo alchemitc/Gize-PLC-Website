@@ -61,7 +61,7 @@ export default function AboutPage() {
             <motion.div initial={{ opacity: 0, x: 30 }} whileInView={{ opacity: 1, x: 0 }} viewport={{ once: true }} transition={{ duration: 0.6, delay: 0.2 }}>
               <div className="relative rounded-2xl overflow-hidden h-[500px]">
                 <div className="absolute inset-0 bg-gize-navy" />
-                <Image src="/images/containers-aerial.jpg" alt="Gize PLC terminal operations" fill className="object-cover" />
+                <Image src="/images/shipping-logistics.jpg" alt="Gize PLC terminal operations" fill className="object-cover" />
                 <div className="absolute inset-0 bg-gradient-to-t from-gize-navy/40 to-transparent" />
               </div>
             </motion.div>
